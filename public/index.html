@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>De La Salle Lipa - GT: JS Basics 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo-container">
+      <img src="/school-logo1.png" alt="De La Salle Lipa Logo" class="school-logo" />
+      <h1>De La Salle Lipa</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#exercises">Exercises</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>GT: JavaScript Basics 1</h2>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About De La Salle Lipa</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Established in 1962, De La Salle Lipa (DLSL) is a private Catholic Lasallian institution located in Lipa City, Batangas, Philippines. Guided by the motto Crescit Gratia Virtuteque ("He grew in grace and wisdom"), DLSL offers a continuum of education from pre-elementary to graduate studies. The institution is committed to nurturing minds, touching hearts, and transforming lives through quality education and community engagement.​</p>
+          <p>Spanning a 10-hectare urban campus, DLSL boasts state-of-the-art facilities, including the SENTRUM multi-purpose complex, modern academic buildings, and dedicated spaces for student organizations. In 1997, DLSL became one of the first educational institutions in Batangas to establish an online presence, reflecting its commitment to innovation and accessibility.</p>
+          <p>DLSL is a proud member of the global Lasallian network and maintains affiliations with organizations such as the Association for the Advancement of Sustainability in Higher Education (AASHE). In 2021, DLSL made history by becoming the first academic institution in the Philippines to receive the STARS Silver Rating from AASHE, recognizing its comprehensive sustainability initiatives. </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-number">6,220</span>
+            <span class="stat-label">Student Population</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">780</span>
+            <span class="stat-label">Faculty and Staff</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">83%</span>
+            <span class="stat-label">Acceptance Rate</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">80%</span>
+            <span class="stat-label">Renewable Energy Usage</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="exercises" class="exercises-section">
+      <h2>Sorting Section</h2>
+      
+      <div class="sorting-controls">
+        <label for="sort-select">Sort by:</label>
+        <select id="sort-select">
+          <option value="default">Default Order</option>
+          <option value="ascending">Ascending</option>
+          <option value="descending">Descending</option>
+        </select>
+      </div>
+      
+      <div id="results-container" class="results-container">
+        <!-- Results will be displayed here by JavaScript -->
+      </div>
+    </section>
+
+    <section id="profile" class="profile">
+      <h2>My Profile</h2>
+      <img src="myphoto.jpg" alt="My Photo" />
+      <div class="profile-info">
+        <h3>Jhon Paulo H. Tenorio</h3>
+        <p>BSIT Student</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="advertisement">
+      <h2>Advertisement</h2>
+      <div class="gallery-container">
+        <img src="coke1.jpg" alt="Coke Ad 1" />
+        <img src="coke2.jpg" alt="Coke Ad 2" />
+        <img src="coke3.jpg" alt="Coke Ad 3" />
+        <img src="coke4.jpg" alt="Coke Ad 4" />
+        <img src="coke5.jpg" alt="Coke Ad 5" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 De La Salle Lipa. Paulo all rights reserved.</p>
+  </footer>
+
+  <!-- Original exercise scripts -->
+  <script src="1exercise.js"></script>
+  <script src="2exercise.js"></script>
+  <script src="3exercise.js"></script>
+  <script src="4exercise.js"></script>
+  
+  <!-- New sorting script -->
+  <script src="sorting.js"></script>
+</body>
+</html>
